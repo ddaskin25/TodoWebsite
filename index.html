@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TodoBox</title>
+
+		<link rel="stylesheet" type="text/css" href="stylesheets.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Space+Mono" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (max-device-width: 800px)" href="responsive.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="scripts.js"></script>
+
+    </head>
+    <body>
+        <div class="top-bar">
+			<div class="top-middle-bar">
+				<a href="index.html" class="nostyle"><img class="img-logo" src="logos/logo-o-w-512.png" height="48">
+				<p class="logo-title">TODOBOX</p></a>
+
+				<div class="menu-bar mobile-invisible noselect">
+					<a href="http://www.google.com"><div class="button" id="accented-button">REGISTER</div></a>
+					<a href="http://www.google.com"><div class="button" onclick="location.href='http://www.google.com'">LOGIN</div></a>
+					<a href="http://www.google.com"><div class="button" onclick="location.href='http://www.google.com'">SUPPORT</div></a>
+					<a href="http://www.google.com"><div class="button" onclick="location.href='http://www.google.com'">PRICING</div></a>
+				</div>
+                
+                <div class="web-invisible responsive-menu"><img src="icons/menu_white_48dp.png" height="86"/></div>
+			</div>
+            <div class="web-invisible dropdown-menu" id="invisible">
+				<div class="dropdown-button">REGISTER</div>
+				<div class="dropdown-button">LOGIN</div>
+				<div class="dropdown-button">SUPPORT</div>
+				<div class="dropdown-button">PRICING</div>
+			</div>
+        </div>
+
+		<div class="jumbotron">
+			<h1 class="jumbotron-header">A clean, organized approach.</h1>
+			<p class="jumbotron-paragraph">Keeping track of all your to-do’s,<br>
+	all in one box.</p>
+
+			<div class="jumbotron-filler">
+				<div class="button-filler">
+					<a class="nostyle" href="http://www.google.com">
+						<div class="jumbotron-button noselect">
+							SIGN UP
+						</div>
+					</a>
+				</div>
+			</div>
+        	<p class="button-footer">or continue reading</p>
+		</div>
+		<div class="down-arrow"></div>
+
+		<div class="info-container">
+			<h2 class="info-header">How it's done.</h2>
+			<p class="info-paragraph">Easy and simple</p>
+        </div>
+
+        <div class="info-sub-container">
+            <div class="sub-container-element">
+				<img src="icons/playlist_brown_48dp.png" class="sub-container-image"/>
+                <p>ADD TASKS</p>
+				<div class="gold-underline" id="px90"></div>
+				<div class="sub-container-text">
+					Add new tasks to your task list. You have the entire control over your task list.
+				</div>
+            </div>
+            <div class="sub-container-element">
+				<img src="icons/view_list_brown_48dp.png" class="sub-container-image"/>
+                <p>KEEP TRACK</p>
+				<div class="gold-underline" id="px100"></div>
+				<div class="sub-container-text">
+					Keep track of all the tasks you added. Every task, displayed in an organized way.
+				</div>
+            </div>
+            <div class="sub-container-element">
+				<img src="icons/done_brown_48dp.png" class="sub-container-image"/>
+                <p>FINISH IT</p>
+				<div class="gold-underline" id="px88"></div>
+				<div class="sub-container-text">
+					All the ingredients for a succesful plan are here. What are you waiting for?
+				</div>
+            </div>
+        </div>
+
+		<div style="height:400px;">
+
+		</div>
+    </body>
+</html>

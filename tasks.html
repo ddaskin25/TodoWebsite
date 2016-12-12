@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TodoBox</title>
+        
+        <link type="text/css" rel="stylesheet" href="stylesheets.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Space+Mono" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="top-bar minimized">
+			<div class="top-middle-bar minimized">
+				<a href="index.html" class="nostyle"><img class="img-logo" src="logos/logo-o-w-512.png" height="32">
+				<p class="logo-title minimized-logo">TODOBOX</p></a>
+				
+				
+
+				<div class="menu-bar noselect minimized" style="margin-top: -68px;">
+                    <div class="button minimized-button"><img src="icons/more_horiz_white_48dp.png" height="37" id="menu-button"></div>
+                    <div class="button minimized-button"><img src="icons/notifications_white_48dp.png" height="32" id="menu-button" style="padding-top: 8px;"/></div>
+                    <div class="button minimized-button"><img src="icons/add_gold_48dp.png" height="37" id="menu-button"/></div>
+				</div>
+			</div>
+        </div>
+        
+        <div>
+            <p>Today</p>
+        </div>
+        <div>
+            <p>Next week</p>
+        </div>
+        <div>
+            <p>Sort by</p>
+        </div>
+        
+        <h2>{{ TODAY }}</h2>
+        <p>23 nov '16</p>
+        
+        <!-- List of all tasks -->
+        <div>
+            <div>
+                <p><i>TODO</i></p>
+                <h4>Do homework</h4>
+                <p>jiqjoiwqjiwqejoiqwje</p>
+            </div>
+        </div>
+    </body>
+</html>

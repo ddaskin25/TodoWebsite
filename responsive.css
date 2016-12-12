@@ -1,0 +1,157 @@
+
+.top-middle-bar {
+    height: 140px;
+}
+
+.img-logo {
+	padding-top: 22px;
+	padding-left: 40px;
+    height: 96px;
+}
+
+.logo-title {
+    font-size: 56px;
+    padding-top: 34px;
+    margin-left: 40px;
+	height: 40px;
+    float: left;
+}
+
+
+
+.mobile-invisible {
+    visibility: hidden;
+    display: none;
+    position: absolute;
+}
+
+.web-invisible {
+    display: block; 
+    visibility: visible;
+    position: relative;
+}
+
+.responsive-menu {
+    float: right;
+    padding-top: 24px;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+.responsive-menu:active {
+	background-color: #6d4037;
+}
+
+.jumbotron-header {
+    font-size: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.jumbotron-paragraph {
+    font-size: 48px;
+    line-height: normal;
+}
+
+.jumbotron {
+    height: 800px;
+}
+
+.jumbotron-button {
+    height: 80px;
+    width: 200px;
+    font-size: 42px;
+    line-height: 80px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.button-footer {
+    font-size: 28px;
+}
+
+.down-arrow {
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+  	border-top: 80px solid #eeeeee;
+}
+
+.info-header {
+    font-size: 62px;
+}
+
+.info-paragraph {
+    font-size: 38px;
+    margin-top: -50px;
+    margin-bottom: 130px;
+}
+
+.sub-container-element {
+    float: none;
+    height: 600px;
+    width: 100%;
+}
+
+.sub-container-image {
+    height: 192px;
+}
+
+.sub-container-text {
+    font-size: 36px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+p {
+    font-size: 36px;
+}
+
+.gold-underline {
+    height: 20px;
+    margin-top: -30px;
+}
+
+#px90 {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+#px88 {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+#px100 {
+    width: 220px;
+    margin-bottom: 50px;
+}
+
+.info-container {
+	margin-top: 180px;
+}
+
+.button-filler {
+	width: 246px;
+}
+
+.dropdown-button {
+	font-family: 'Space Mono';
+	font-size: 48px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-top: 2px solid #382621;
+	text-align: left;
+	padding-left: 72px;
+}
+
+.dropdown-button:last-child {
+	padding-bottom: 12px;
+}
+
+
+
+.dropdown-button:first-child {
+	margin-top: 106px;
+	color: #ffc107;
+	font-weight: bold;
+}
